@@ -265,9 +265,127 @@ a {
   margin-top: 0;
 }
 
+.card-image-button {
+  display: block;
+  padding: 0;
+  border: none;
+  background: transparent;
+  width: 100%;
+  cursor: pointer;
+  text-align: left;
+}
+
+.card-image-button:focus-visible {
+  outline: 3px solid rgba(255, 107, 53, 0.65);
+  outline-offset: 6px;
+}
+
+.card-image {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 18px;
+  margin-bottom: 1.25rem;
+  border: 1px solid rgba(255, 107, 53, 0.16);
+  background: linear-gradient(180deg, #ffffff 0%, #f9f4ef 100%);
+  display: block;
+  padding: 0.75rem;
+}
+
 .card p {
   margin: 0.85rem 0 0;
   color: #475569;
+}
+
+.image-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.image-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.image-modal-content {
+  position: relative;
+  z-index: 10;
+  max-width: 720px;
+  width: min(100%, 720px);
+  border-radius: 24px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.35);
+}
+
+.image-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(255, 107, 53, 0.95);
+  border: none;
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 1;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.image-modal-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.95);
+  color: #001a4d;
+  font-size: 1.75rem;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.image-modal-prev {
+  left: 1rem;
+}
+
+.image-modal-next {
+  right: 1rem;
+}
+
+.image-modal-photo {
+  width: 100%;
+  max-height: 60vh;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  background: #000000;
+}
+
+.image-modal-info {
+  padding: 1rem 1.5rem 1.5rem;
+  color: #001a4d;
+}
+
+.image-modal-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.image-modal-description {
+  margin: 0;
+  color: #475569;
+  line-height: 1.6;
 }
 
 .card-light {
