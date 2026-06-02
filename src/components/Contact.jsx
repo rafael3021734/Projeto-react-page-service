@@ -11,11 +11,11 @@ export default function Contact() {
         </div>
 
         <div className="contact-details">
-          <a href="tel:+5511999999999">+55 (11) 969971614</a>
+          <a href="tel:+5511969971614">+55 (11) 969971614</a>
           <a href="mailto:Rafael.engineer33@gmail.com.br">Rafael.engineer33@gmail.com.br</a>
           <a
             className="whatsapp-button"
-            href="https://wa.me/55119969971614  "
+            href="https://wa.me/5511969971614  "
             target="_blank"
             rel="noreferrer"
           >
