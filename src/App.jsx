@@ -5,6 +5,8 @@ import Services from './components/Services'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import ScrollLogo from './components/ScrollLogo'
+import FloatingWhatsApp from './components/FloatingWhatsApp'
 
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <ScrollLogo />
+      <FloatingWhatsApp />
     </>
   )
 }

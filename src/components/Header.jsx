@@ -1,3 +1,5 @@
+import logo from '../assets/logo-teste2.png'
+
 const navItems = [
   { label: 'Home', href: '#home' },
   { label: 'Serviços', href: '#services' },
@@ -10,7 +12,10 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <a className="brand" href="#home">RF Engenharia</a>
+        <a className="brand" href="#home">
+          <img src={logo} alt="RD Máquinas" className="brand-logo" />
+          <span className="brand-text">RD Máquinas</span>
+        </a>
 
         <nav className="nav">
           {navItems.map(item => (
