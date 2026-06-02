@@ -2,7 +2,7 @@ export default function FloatingWhatsApp() {
   return (
     <a
       className="floating-whatsapp"
-      href="https://wa.me/5511999999999"
+      href="https://wa.me/5511969971614"
       target="_blank"
       rel="noreferrer"
       aria-label="Abrir WhatsApp"
