@@ -4,35 +4,34 @@ export default function About() {
       <div className="container about-grid">
         <div>
           <span className="eyebrow">Quem somos</span>
-          <h2>Mais de 10 anos levando eficiência e segurança elétrica ao seu projeto.</h2>
+          <h2>Soluções em Portões Basculantes Automáticos</h2>
           <p>
-            Atuamos com planejamento, instalação e manutenção de sistemas elétricos, automação e painéis industriais para
-            empresas, condomínios e propriedades comerciais.
+            Somos especializados em instalação, manutenção e modernização de portões basculantes automáticos. Atendemos residências, condomínios e propriedades comerciais com serviços técnicos de qualidade e suporte dedicado.
           </p>
 
           <ul className="feature-list">
-            <li>Atendimento técnico especializado em elétrica e automação</li>
-            <li>Projetos personalizados para cada cliente e setor</li>
-            <li>Entrega dentro do prazo com foco em segurança e qualidade</li>
+            <li>Conhecimento técnico em sistemas de automação de portões - Diagnóstico e reparo</li>
+            <li>Segurança completa: Fotocélulas, Travas Eletromagnéticas e Controle por Smartphone</li>
+            <li>Atendimento personalizado com peças de qualidade e orientação clara</li>
           </ul>
         </div>
 
         <div className="stats-grid">
           <div className="stat-card">
-            <strong>10+</strong>
-            <span>Anos de experiência</span>
+            <strong>Qualidade</strong>
+            <span>Em cada serviço</span>
           </div>
           <div className="stat-card">
-            <strong>150+</strong>
-            <span>Projetos concluídos</span>
+            <strong>Atendimento</strong>
+            <span>Personalizado e rápido</span>
           </div>
           <div className="stat-card">
-            <strong>24h</strong>
-            <span>Suporte emergencial</span>
+            <strong>Segurança</strong>
+            <span>Sempre em primeiro lugar</span>
           </div>
           <div className="stat-card">
-            <strong>100%</strong>
-            <span>Compromisso com a segurança</span>
+            <strong>Confiança</strong>
+            <span>No trabalho realizado</span>
           </div>
         </div>
       </div>

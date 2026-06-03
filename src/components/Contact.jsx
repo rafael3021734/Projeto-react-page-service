@@ -4,9 +4,9 @@ export default function Contact() {
       <div className="container contact-card">
         <div>
           <span className="eyebrow">Contato</span>
-          <h2>Vamos conversar sobre o seu próximo projeto?</h2>
+          <h2>Seu portão com problema? Estamos prontos para ajudar!</h2>
           <p>
-            Fale com a nossa equipe, solicite um orçamento e agende atendimento técnico com rapidez e transparência.
+            Solicite diagnóstico técnico, orçamento ou atendimento emergencial. Nossa equipe responde em até 24h com soluções rápidas e seguras para seu portão automático.
           </p>
         </div>
 
